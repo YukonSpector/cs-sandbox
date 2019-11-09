@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ross/git/cs-snadbox/gradebook/gradebook.csproj": {}
+    "/Users/ross/git/cs-sandbox/gradebook/gradebook.csproj": {}
   },
   "projects": {
-    "/Users/ross/git/cs-snadbox/gradebook/gradebook.csproj": {
+    "/Users/ross/git/cs-sandbox/gradebook/gradebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ross/git/cs-snadbox/gradebook/gradebook.csproj",
+        "projectUniqueName": "/Users/ross/git/cs-sandbox/gradebook/gradebook.csproj",
         "projectName": "gradebook",
-        "projectPath": "/Users/ross/git/cs-snadbox/gradebook/gradebook.csproj",
+        "projectPath": "/Users/ross/git/cs-sandbox/gradebook/gradebook.csproj",
         "packagesPath": "/Users/ross/.nuget/packages/",
-        "outputPath": "/Users/ross/git/cs-snadbox/gradebook/obj/",
+        "outputPath": "/Users/ross/git/cs-sandbox/gradebook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ross/.nuget/NuGet/NuGet.Config"
