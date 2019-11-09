@@ -6,12 +6,26 @@ using System;
 // on the `List` type.
 using System.Collections.Generic;
 
+/* Defining a name space like this is not vital but is a really good idea.
+If not defined then everything will get put explicity into the global namespace.
+By creating your own it eliminates, or hopefully limits, collisions. */
 namespace gradebook
 {
+    /* Creating a new class aka "type" to be used:
+        class Book
+        {
+            
+        }
+    Its good form to only have one class per file. 
+    The Book type will be stored in the file Book.cs and call 
+    inside of Program.cs */
     class Program
     {
         static void Main(string[] args)
         {
+            // Calling on the new type created in the statement `class Book`.
+            var book = new Book();
+            book.AddGrade(89.1);
             // Example of a basic variable initialization.
             // in this case we are saying the var `x` has a type of `double`.
             double x;
@@ -25,7 +39,7 @@ namespace gradebook
             /* Initializing a new Array.
             The key word `new` is part of how an Array gets Initialized.
             In this example a new Array is created with an explicit size
-            of four and four values are provided*/ 
+            of four and four values are provided. */ 
             var numbers = new double[4] { 12.7, 10.3, 6.11, 4.1 };
 
 
@@ -38,6 +52,7 @@ namespace gradebook
             // With the List type we can add values to it.
             // Unlike Arrays that once they are setup become immutible.
             grades.Add(56.1);
+            // Add is a Method because the paranthases are used to pass in a value.
 
             var result = 0.0;
             foreach (var number in grades)
@@ -46,6 +61,7 @@ namespace gradebook
                 result += number;
             }
             result /= grades.Count;
+            // Count is an attribute 
             Console.WriteLine($"The average grade is {result}.");
             // A way to format the number.
             Console.WriteLine($"The average grade formatted {result:N3}.");
