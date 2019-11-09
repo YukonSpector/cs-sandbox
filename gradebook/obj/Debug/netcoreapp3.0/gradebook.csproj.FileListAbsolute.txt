@@ -1,0 +1,11 @@
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook.deps.json
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook.runtimeconfig.json
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook.runtimeconfig.dev.json
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook.dll
+/Users/ross/git/cs-snadbox/gradebook/bin/Debug/netcoreapp3.0/gradebook.pdb
+/Users/ross/git/cs-snadbox/gradebook/obj/Debug/netcoreapp3.0/gradebook.csprojAssemblyReference.cache
+/Users/ross/git/cs-snadbox/gradebook/obj/Debug/netcoreapp3.0/gradebook.AssemblyInfoInputs.cache
+/Users/ross/git/cs-snadbox/gradebook/obj/Debug/netcoreapp3.0/gradebook.AssemblyInfo.cs
+/Users/ross/git/cs-snadbox/gradebook/obj/Debug/netcoreapp3.0/gradebook.dll
+/Users/ross/git/cs-snadbox/gradebook/obj/Debug/netcoreapp3.0/gradebook.pdb
