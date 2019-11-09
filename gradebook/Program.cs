@@ -24,8 +24,9 @@ namespace gradebook
         static void Main(string[] args)
         {
             // Calling on the new type created in the statement `class Book`.
-            var book = new Book();
+            var book = new Book("Ross's Grade Book");
             book.AddGrade(89.1);
+            book.AddGrade(90.5);
             // Example of a basic variable initialization.
             // in this case we are saying the var `x` has a type of `double`.
             double x;
